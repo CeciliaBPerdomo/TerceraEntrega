@@ -1,0 +1,29 @@
+<% if(productos.length > 0){ %>
+    <% for (const producto of productos) {%>
+    <div class="card">
+        <div class="card-image">
+            <img src="<%=producto.foto%>" width="180px" height="125px">
+        </div>
+
+        <h5 class="card-title"><%=producto.nombre%> (Id:<%=producto.id%>)</h5>
+        <p class="card-text">Código: <%=producto.codigo%></p>
+        <p class="card-text">Timestamp: <%=producto.timestamp%></p>
+        <p class="card-text"><%=producto.descripcion%></p>
+        
+        <div class="card-price">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Stock: <%=producto.stock%></li>
+                <li class="list-group-item"><b>$<%=producto.precio%></b></li>
+            </ul>
+
+            <ul class="list-group list-group-flush">
+                <li><a class="btn btn-outline-success">Añadir a carrito <i class="bi bi-cart"></i></a></li>
+                <li>
+                    <a class="btn btn-outline-primary">Modificar</a>
+                    <a class="btn btn-outline-danger">Borrar</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <%};%>
+<%};%>

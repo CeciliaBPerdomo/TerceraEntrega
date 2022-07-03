@@ -1,0 +1,30 @@
+Inicializar el proyecto: 
+npm init -y
+
+Express:
+npm i express
+npm i express-session
+
+Motor de plantillas EJS: 
+npm i ejs
+npm i ejs-mate
+
+Para encriptar contraseñas: 
+npm i bcrypt
+npm i bcrypt-nodejs
+npm i jsonwebtoken
+
+Conexión a base de datos (mongo):
+npm i connect-mongo
+npm i mongoose
+
+Variable de entorno: 
+npm i dotenv
+
+Morgan:
+npm i morgan
+
+Passport:
+npm i passport
+npm i passport-jwt
+npm i passport-local
