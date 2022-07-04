@@ -28,3 +28,6 @@ Passport:
 npm i passport
 npm i passport-jwt
 npm i passport-local
+
+Nodemon:
+npm i nodemon
